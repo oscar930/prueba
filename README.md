@@ -21,7 +21,10 @@ cd prueba
 # 2 Levantar Docker
 docker-compose up -d
 
-docker start postgres_prueba
+# 3 docker start postgres_prueba
 
 #Ejecutar el siguiente comando apra correr migraciones 
 mvn clean flyway:migrate
+
+# 4 instalar dependencias y correr maven
+mvn clean install
